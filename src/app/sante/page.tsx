@@ -77,8 +77,8 @@ export default function SantePage() {
               </div>
               <h3 className="mb-2 text-xl font-bold">Scanner</h3>
               <p className="text-muted-foreground">
-                Scannez le bracelet NFC ou le tag de chambre avec n'importe quel
-                smartphone
+                Scannez le bracelet NFC ou le tag de chambre avec n&apos;importe
+                quel smartphone
               </p>
             </div>
             <div className="flex flex-col items-center text-center">
@@ -87,8 +87,8 @@ export default function SantePage() {
               </div>
               <h3 className="mb-2 text-xl font-bold">Alerter</h3>
               <p className="text-muted-foreground">
-                Accédez instantanément aux informations d'urgence et contacts
-                prioritaires
+                Accédez instantanément aux informations d&apos;urgence et
+                contacts prioritaires
               </p>
             </div>
             <div className="flex flex-col items-center text-center">
@@ -116,7 +116,7 @@ export default function SantePage() {
               <CardHeader>
                 <CardTitle>Bracelet NFC</CardTitle>
                 <CardDescription>
-                  Identification rapide et accès aux informations d'urgence
+                  Identification rapide et accès aux informations d&apos;urgence
                 </CardDescription>
               </CardHeader>
               <CardContent>
@@ -132,7 +132,7 @@ export default function SantePage() {
                 <ul className="space-y-2">
                   <li className="flex items-center">
                     <Check className="mr-2 h-4 w-4 text-[#28C4B5]" /> Résistant
-                    à l'eau
+                    à l&apos;eau
                   </li>
                   <li className="flex items-center">
                     <Check className="mr-2 h-4 w-4 text-[#28C4B5]" /> Batterie
@@ -221,11 +221,12 @@ export default function SantePage() {
           <div className="grid gap-8 md:grid-cols-2 md:items-center lg:gap-12">
             <div>
               <h2 className="mb-6 text-3xl font-bold md:text-4xl">
-                Écran d'urgence
+                Écran d&apos;urgence
               </h2>
               <p className="mb-6 text-lg text-muted-foreground">
-                Interface intuitive et accessible permettant d'accéder
-                rapidement aux informations vitales du patient en cas d'urgence.
+                Interface intuitive et accessible permettant d&apos;accéder
+                rapidement aux informations vitales du patient en cas
+                d&apos;urgence.
               </p>
               <div className="space-y-4">
                 <div className="flex items-center">
@@ -258,7 +259,7 @@ export default function SantePage() {
                   <div>
                     <h3 className="font-bold">Conforme WCAG</h3>
                     <p className="text-sm text-muted-foreground">
-                      Respecte les normes d'accessibilité pour tous les
+                      Respecte les normes d&apos;accessibilité pour tous les
                       utilisateurs
                     </p>
                   </div>
@@ -461,7 +462,7 @@ export default function SantePage() {
                   <ul className="mb-6 space-y-2">
                     <li className="flex items-start">
                       <Check className="mr-2 mt-1 h-4 w-4 text-[#28C4B5]" />
-                      <span>Jusqu'à 50 patients</span>
+                      <span>Jusqu&apos;à 50 patients</span>
                     </li>
                     <li className="flex items-start">
                       <Check className="mr-2 mt-1 h-4 w-4 text-[#28C4B5]" />
@@ -497,7 +498,7 @@ export default function SantePage() {
                   <ul className="mb-6 space-y-2">
                     <li className="flex items-start">
                       <Check className="mr-2 mt-1 h-4 w-4 text-[#28C4B5]" />
-                      <span>Jusqu'à 200 patients</span>
+                      <span>Jusqu&apos;à 200 patients</span>
                     </li>
                     <li className="flex items-start">
                       <Check className="mr-2 mt-1 h-4 w-4 text-[#28C4B5]" />
@@ -629,8 +630,8 @@ export default function SantePage() {
                 ))}
               </div>
               <p className="mb-4 italic text-muted-foreground">
-                "Airlod Santé a révolutionné notre processus d'admission aux
-                urgences. Nous gagnons un temps précieux et évitons les
+                "Airlod Santé a révolutionné notre processus d&apos;admission
+                aux urgences. Nous gagnons un temps précieux et évitons les
                 erreurs."
               </p>
               <div className="flex items-center">
@@ -661,7 +662,7 @@ export default function SantePage() {
                 ))}
               </div>
               <p className="mb-4 italic text-muted-foreground">
-                "En tant que secouriste, l'accès immédiat aux informations
+                "En tant que secouriste, l&apos;accès immédiat aux informations
                 vitales du patient fait toute la différence. Un outil
                 indispensable."
               </p>
@@ -694,7 +695,7 @@ export default function SantePage() {
               </div>
               <p className="mb-4 italic text-muted-foreground">
                 "Depuis que ma mère porte un bracelet Airlod, toute la famille
-                est plus sereine. Un investissement qui n'a pas de prix."
+                est plus sereine. Un investissement qui n&apos;a pas de prix."
               </p>
               <div className="flex items-center">
                 <div className="mr-3 h-10 w-10 overflow-hidden rounded-full bg-gray-200">
@@ -709,7 +710,7 @@ export default function SantePage() {
                 <div>
                   <p className="font-bold">Pierre Lemoine</p>
                   <p className="text-xs text-muted-foreground">
-                    Fils d'une patiente
+                    Fils d&apos;une patiente
                   </p>
                 </div>
               </div>
@@ -732,9 +733,9 @@ export default function SantePage() {
                 </AccordionTrigger>
                 <AccordionContent>
                   Le bracelet contient une puce NFC passive qui peut être lue
-                  par n'importe quel smartphone compatible NFC. Il suffit
-                  d'approcher le téléphone du bracelet pour accéder aux
-                  informations d'urgence du patient.
+                  par n&apos;importe quel smartphone compatible NFC. Il suffit
+                  d&apos;approcher le téléphone du bracelet pour accéder aux
+                  informations d&apos;urgence du patient.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-2">
@@ -744,8 +745,8 @@ export default function SantePage() {
                 <AccordionContent>
                   Oui, toutes les données sont chiffrées avec AES-256 et
                   stockées sur des serveurs certifiés HDS (Hébergeur de Données
-                  de Santé). L'accès aux informations complètes nécessite une
-                  authentification.
+                  de Santé). L&apos;accès aux informations complètes nécessite
+                  une authentification.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-3">
@@ -754,8 +755,8 @@ export default function SantePage() {
                 </AccordionTrigger>
                 <AccordionContent>
                   Le bracelet ne contient pas de batterie et est conçu pour
-                  durer plusieurs années. Il est résistant à l'eau et aux chocs
-                  pour une utilisation quotidienne.
+                  durer plusieurs années. Il est résistant à l&apos;eau et aux
+                  chocs pour une utilisation quotidienne.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-4">
@@ -773,10 +774,10 @@ export default function SantePage() {
                   Est-ce compatible avec tous les systèmes hospitaliers ?
                 </AccordionTrigger>
                 <AccordionContent>
-                  Oui, notre solution s'intègre avec la plupart des systèmes
-                  d'information hospitaliers via notre API. Nous proposons
-                  également des connecteurs spécifiques pour les principaux
-                  logiciels du marché.
+                  Oui, notre solution s&apos;intègre avec la plupart des
+                  systèmes d&apos;information hospitaliers via notre API. Nous
+                  proposons également des connecteurs spécifiques pour les
+                  principaux logiciels du marché.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-6">
@@ -786,8 +787,8 @@ export default function SantePage() {
                 <AccordionContent>
                   Pour une petite structure, le déploiement peut se faire en
                   quelques jours. Pour un hôpital, comptez 2 à 4 semaines
-                  incluant la formation du personnel et l'intégration avec vos
-                  systèmes existants.
+                  incluant la formation du personnel et l&apos;intégration avec
+                  vos systèmes existants.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
@@ -831,8 +832,8 @@ export default function SantePage() {
             <div>
               <h3 className="mb-4 text-lg font-bold">Airlod Santé</h3>
               <p className="mb-4 text-sm text-gray-300">
-                Solutions innovantes pour l'identification et la gestion des
-                patients.
+                Solutions innovantes pour l&apos;identification et la gestion
+                des patients.
               </p>
               <div className="flex space-x-4">
                 <Link href="#" className="text-gray-300 hover:text-white">

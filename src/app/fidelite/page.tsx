@@ -34,7 +34,7 @@ export default function FidelitePage() {
     <div className="fidelite-theme">
       {/* Hero Section */}
       <section className="relative overflow-hidden bg-[#011627] px-4 py-20 text-white md:py-32">
-        <div className="absolute inset-0 bg-[url('/placeholder.svg?height=800&width=1600')] bg-cover bg-center opacity-5"></div>
+        <div className='absolute inset-0 bg-[url("/placeholder.svg?height=800&width=1600")] bg-cover bg-center opacity-5'></div>
         <div className="container mx-auto grid gap-8 md:grid-cols-2 md:items-center max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="space-y-6 z-10">
             <h1 className="text-4xl font-extrabold leading-tight tracking-tight md:text-5xl lg:text-6xl">
@@ -311,8 +311,8 @@ export default function FidelitePage() {
               </h2>
               <p className="mb-6 text-lg text-muted-foreground">
                 Créez un programme de fidélité qui incite vos clients à revenir.
-                Système de points, niveaux de fidélité, bonus d'anniversaire et
-                récompenses pour les parrainages.
+                Système de points, niveaux de fidélité, bonus
+                d&apos;anniversaire et récompenses pour les parrainages.
               </p>
               <ul className="space-y-4">
                 <li className="flex items-center">
@@ -380,7 +380,7 @@ export default function FidelitePage() {
                 </div>
                 <h3 className="mb-2 font-bold">QR sur reçu</h3>
                 <p className="text-sm text-muted-foreground">
-                  Code QR imprimé sur le reçu d'achat pour inscription
+                  Code QR imprimé sur le reçu d&apos;achat pour inscription
                   instantanée
                 </p>
               </div>
@@ -452,7 +452,7 @@ export default function FidelitePage() {
             </div>
             <div className="mt-12 text-center">
               <Button className="bg-[#011627] hover:bg-[#011627]/90">
-                Voir la démo d'inscription{" "}
+                Voir la démo d&apos;inscription{" "}
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
             </div>
@@ -472,9 +472,9 @@ export default function FidelitePage() {
                 Mesurez et optimisez
               </h2>
               <p className="mb-6 text-lg text-muted-foreground">
-                Suivez vos actifs, identifiez le churn avant qu'il n'arrive.
-                Notre tableau de bord vous donne toutes les métriques clés pour
-                optimiser votre programme de fidélité.
+                Suivez vos actifs, identifiez le churn avant qu&apos;il
+                n&apos;arrive. Notre tableau de bord vous donne toutes les
+                métriques clés pour optimiser votre programme de fidélité.
               </p>
               <ul className="space-y-4">
                 <li className="flex items-center">
@@ -484,7 +484,8 @@ export default function FidelitePage() {
                   <div>
                     <h3 className="font-bold">Valeur client (CLV)</h3>
                     <p className="text-sm text-muted-foreground">
-                      Mesurez l'impact de votre programme sur le panier moyen
+                      Mesurez l&apos;impact de votre programme sur le panier
+                      moyen
                     </p>
                   </div>
                 </li>
@@ -495,7 +496,8 @@ export default function FidelitePage() {
                   <div>
                     <h3 className="font-bold">Prédiction de churn</h3>
                     <p className="text-sm text-muted-foreground">
-                      Identifiez les clients à risque avant qu'ils ne partent
+                      Identifiez les clients à risque avant qu&apos;ils ne
+                      partent
                     </p>
                   </div>
                 </li>
@@ -582,7 +584,7 @@ export default function FidelitePage() {
                   <TabsContent value="connectors" className="mt-4">
                     <p className="mb-4 text-sm text-muted-foreground">
                       Connectez-vous en quelques clics avec nos intégrations
-                      prêtes à l'emploi.
+                      prêtes à l&apos;emploi.
                     </p>
                     <div className="grid grid-cols-3 gap-4">
                       {[1, 2, 3, 4, 5, 6, 7, 8, 9].map((logo) => (
@@ -632,8 +634,8 @@ fetch('https://api.airlod.com/v1/loyalty/add-points', {
               </h2>
               <p className="mb-6 text-lg text-muted-foreground">
                 Intégrez facilement votre programme de fidélité à vos systèmes
-                existants. Connecteurs prêts à l'emploi ou API ouverte pour une
-                flexibilité totale.
+                existants. Connecteurs prêts à l&apos;emploi ou API ouverte pour
+                une flexibilité totale.
               </p>
               <ul className="space-y-4">
                 <li className="flex items-center">
@@ -641,9 +643,11 @@ fetch('https://api.airlod.com/v1/loyalty/add-points', {
                     <Check className="h-5 w-5 text-[#011627]" />
                   </div>
                   <div>
-                    <h3 className="font-bold">Connecteurs prêts à l'emploi</h3>
+                    <h3 className="font-bold">
+                      Connecteurs prêts à l&apos;emploi
+                    </h3>
                     <p className="text-sm text-muted-foreground">
-                      Lightspeed, Square, Shopify et bien d'autres
+                      Lightspeed, Square, Shopify et bien d&apos;autres
                     </p>
                   </div>
                 </li>
@@ -698,10 +702,11 @@ fetch('https://api.airlod.com/v1/loyalty/add-points', {
               <div className="h-16 w-16 rounded-full bg-gray-100"></div>
             </div>
             <blockquote className="mb-6 border-l-4 border-[#C5F500] pl-4 italic text-muted-foreground">
-              "Depuis le lancement de notre programme de fidélité digital avec
-              Airlod, nous avons vu une augmentation de 35% des visites répétées
-              en seulement trois mois. Nos clients adorent l'expérience mobile
-              et nous avons enfin des données exploitables sur leurs habitudes."
+              &quot;Depuis le lancement de notre programme de fidélité digital
+              avec Airlod, nous avons vu une augmentation de 35% des visites
+              répétées en seulement trois mois. Nos clients adorent
+              l&apos;expérience mobile et nous avons enfin des données
+              exploitables sur leurs habitudes.&quot;
             </blockquote>
             <div className="mb-6 grid grid-cols-3 gap-4">
               <div className="rounded-lg bg-gray-50 p-3 text-center">
@@ -744,7 +749,8 @@ fetch('https://api.airlod.com/v1/loyalty/add-points', {
                 </div>
               </div>
               <Button className="bg-[#011627] hover:bg-[#011627]/90">
-                Lire l'étude complète <ArrowRight className="ml-2 h-4 w-4" />
+                Lire l&apos;étude complète{" "}
+                <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
             </div>
           </div>
@@ -780,7 +786,7 @@ fetch('https://api.airlod.com/v1/loyalty/add-points', {
                 <ul className="mb-6 space-y-2">
                   <li className="flex items-start">
                     <Check className="mr-2 mt-1 h-4 w-4 text-[#011627]" />
-                    <span>Jusqu'à 1 000 cartes</span>
+                    <span>Jusqu&apos;à 1 000 cartes</span>
                   </li>
                   <li className="flex items-start">
                     <Check className="mr-2 mt-1 h-4 w-4 text-[#011627]" />
@@ -820,7 +826,7 @@ fetch('https://api.airlod.com/v1/loyalty/add-points', {
                 <ul className="mb-6 space-y-2">
                   <li className="flex items-start">
                     <Check className="mr-2 mt-1 h-4 w-4 text-[#011627]" />
-                    <span>Jusqu'à 5 000 cartes</span>
+                    <span>Jusqu&apos;à 5 000 cartes</span>
                   </li>
                   <li className="flex items-start">
                     <Check className="mr-2 mt-1 h-4 w-4 text-[#011627]" />
@@ -920,7 +926,7 @@ fetch('https://api.airlod.com/v1/loyalty/add-points', {
                     Comment gérer la propriété des données ?
                   </AccordionTrigger>
                   <AccordionContent>
-                    Vous restez l'unique propriétaire de toutes les données
+                    Vous restez l&apos;unique propriétaire de toutes les données
                     collectées. Nous ne les utilisons jamais à des fins
                     marketing et vous pouvez les exporter à tout moment au
                     format CSV ou Excel.
@@ -933,8 +939,9 @@ fetch('https://api.airlod.com/v1/loyalty/add-points', {
                   <AccordionContent>
                     Oui, notre plateforme est 100% conforme au RGPD. Nous
                     proposons des outils intégrés pour gérer les consentements,
-                    les demandes d'accès et de suppression des données, ainsi
-                    que des politiques de confidentialité personnalisables.
+                    les demandes d&apos;accès et de suppression des données,
+                    ainsi que des politiques de confidentialité
+                    personnalisables.
                   </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="item-3">
@@ -1030,8 +1037,8 @@ fetch('https://api.airlod.com/v1/loyalty/add-points', {
             Prêt à fidéliser vos clients ?
           </h2>
           <p className="mx-auto mb-8 max-w-2xl text-lg">
-            Rejoignez les milliers d'entreprises qui ont déjà transformé leur
-            relation client avec Airlod Fidélité.
+            Rejoignez les milliers d&apos;entreprises qui ont déjà transformé
+            leur relation client avec Airlod Fidélité.
           </p>
           <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
             <Button

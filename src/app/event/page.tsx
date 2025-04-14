@@ -74,7 +74,7 @@ export default function EventPage() {
                 </div>
               </div>
               <div className="text-center text-sm text-gray-600">
-                <p>Scan pour valider l'entrée</p>
+                <p>Scan pour valider l&apos;entrée</p>
               </div>
             </div>
           </div>
@@ -139,7 +139,7 @@ export default function EventPage() {
             </div>
             <div className="relative mx-auto h-[400px] w-full max-w-md overflow-hidden rounded-xl border bg-white p-4 shadow-xl">
               <div className="absolute inset-0 flex items-center justify-center text-sm text-gray-500">
-                Animation de l'assistant de création d'événement
+                Animation de l&apos;assistant de création d&apos;événement
               </div>
               <div className="absolute bottom-4 left-4 right-4 rounded-lg bg-[#6C5CE7]/10 p-4">
                 <div className="flex items-center justify-between">
@@ -177,8 +177,8 @@ export default function EventPage() {
             </h2>
             <p className="mx-auto max-w-2xl text-lg text-muted-foreground">
               Dites adieu aux commissions exorbitantes des plateformes
-              traditionnelles. Avec Airlod Event, vous gardez plus d'argent dans
-              votre poche.
+              traditionnelles. Avec Airlod Event, vous gardez plus d&apos;argent
+              dans votre poche.
             </p>
           </div>
           <div className="mx-auto max-w-4xl">
@@ -251,8 +251,8 @@ export default function EventPage() {
                 +6,50 € par billet
               </div>
               <p className="text-lg font-bold">
-                Pour un événement de 500 personnes, c'est{" "}
-                <span className="text-green-600">3 250 € d'économies</span>
+                Pour un événement de 500 personnes, c&apos;est{" "}
+                <span className="text-green-600">3 250 € d&apos;économies</span>
               </p>
             </div>
           </div>
@@ -374,12 +374,12 @@ export default function EventPage() {
                 Le jour J
               </div>
               <h2 className="mb-6 text-3xl font-bold md:text-4xl">
-                Super-pouvoirs à l'entrée
+                Super-pouvoirs à l&apos;entrée
               </h2>
               <p className="mb-6 text-lg text-muted-foreground">
-                À l'entrée, vos bénévoles scannent le QR avec l'app Airlod
-                Event, la jauge de capacité passe de 0% à 100% en temps réel.
-                Aucun matériel supplémentaire nécessaire.
+                À l&apos;entrée, vos bénévoles scannent le QR avec l&apos;app
+                Airlod Event, la jauge de capacité passe de 0% à 100% en temps
+                réel. Aucun matériel supplémentaire nécessaire.
               </p>
               <ul className="space-y-4">
                 <li className="flex items-center">
@@ -518,9 +518,9 @@ export default function EventPage() {
                   ))}
                 </div>
                 <blockquote className="mb-4 italic text-muted-foreground">
-                  "Avant Airlod, je passais 10h par semaine à gérer la
-                  billetterie. Maintenant, c'est 1h maximum, et j'économise 800€
-                  par mois en commissions."
+                  &quot;Avant Airlod, je passais 10h par semaine à gérer la
+                  billetterie. Maintenant, c&apos;est 1h maximum, et
+                  j&apos;économise 800€ par mois en commissions.&quot;
                 </blockquote>
                 <div className="flex items-center">
                   <div className="mr-3 h-10 w-10 overflow-hidden rounded-full bg-gray-200">
@@ -565,9 +565,9 @@ export default function EventPage() {
                   ))}
                 </div>
                 <blockquote className="mb-4 italic text-muted-foreground">
-                  "La simplicité du système nous a permis de vendre 200 billets
-                  de plus que l'année dernière. Les frais économisés ont été
-                  directement reversés à notre cause."
+                  &quot;La simplicité du système nous a permis de vendre 200
+                  billets de plus que l&apos;année dernière. Les frais
+                  économisés ont été directement reversés à notre cause.&quot;
                 </blockquote>
                 <div className="flex items-center">
                   <div className="mr-3 h-10 w-10 overflow-hidden rounded-full bg-gray-200">
@@ -582,7 +582,7 @@ export default function EventPage() {
                   <div>
                     <p className="font-bold">Claire Moreau</p>
                     <p className="text-xs text-muted-foreground">
-                      Directrice d'événements, Fondation Espoir
+                      Directrice d&apos;événements, Fondation Espoir
                     </p>
                   </div>
                 </div>
@@ -612,9 +612,9 @@ export default function EventPage() {
                   ))}
                 </div>
                 <blockquote className="mb-4 italic text-muted-foreground">
-                  "L'application de scan a transformé notre accueil. Plus de
-                  files d'attente, plus de stress. Nos participants sont ravis
-                  et nous aussi !"
+                  &quot;L&apos;application de scan a transformé notre accueil.
+                  Plus de files d&apos;attente, plus de stress. Nos participants
+                  sont ravis et nous aussi !&quot;
                 </blockquote>
                 <div className="flex items-center">
                   <div className="mr-3 h-10 w-10 overflow-hidden rounded-full bg-gray-200">
@@ -655,7 +655,7 @@ export default function EventPage() {
               <ul className="space-y-2">
                 <li className="flex items-start">
                   <Check className="mr-2 mt-1 h-4 w-4 text-[#6C5CE7]" />
-                  <span>Jusqu'à 50 billets</span>
+                  <span>Jusqu&apos;à 50 billets</span>
                 </li>
                 <li className="flex items-start">
                   <Check className="mr-2 mt-1 h-4 w-4 text-[#6C5CE7]" />
@@ -729,9 +729,9 @@ export default function EventPage() {
                   </AccordionTrigger>
                   <AccordionContent>
                     Nous sommes conformes RGPD et PCI DSS. Toutes les données
-                    sont chiffrées en transit et au repos. Nous n'utilisons
+                    sont chiffrées en transit et au repos. Nous n&apos;utilisons
                     jamais les données de vos participants à des fins marketing
-                    et vous en restez l'unique propriétaire.
+                    et vous en restez l&apos;unique propriétaire.
                   </AccordionContent>
                 </AccordionItem>
               </Accordion>
@@ -805,8 +805,9 @@ export default function EventPage() {
             Prêt à révolutionner vos événements ?
           </h2>
           <p className="mx-auto mb-8 max-w-2xl text-lg">
-            Rejoignez les milliers d'organisateurs qui ont déjà adopté Airlod
-            Event pour simplifier leur billetterie et maximiser leurs revenus.
+            Rejoignez les milliers d&apos;organisateurs qui ont déjà adopté
+            Airlod Event pour simplifier leur billetterie et maximiser leurs
+            revenus.
           </p>
           <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
             <Button
@@ -834,7 +835,7 @@ export default function EventPage() {
               <h3 className="mb-4 text-lg font-bold">Airlod Event</h3>
               <p className="mb-4 text-sm text-gray-300">
                 La solution de billetterie tout-en-un pour les organisateurs
-                d'événements indépendants.
+                d&apos;événements indépendants.
               </p>
               <div className="flex space-x-4">
                 <Link href="#" className="text-gray-300 hover:text-white">
