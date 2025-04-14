@@ -630,9 +630,8 @@ export default function SantePage() {
                 ))}
               </div>
               <p className="mb-4 italic text-muted-foreground">
-                "Airlod Santé a révolutionné notre processus d&apos;admission
-                aux urgences. Nous gagnons un temps précieux et évitons les
-                erreurs."
+                Airlod Santé a révolutionné notre processus d&apos;admission aux
+                urgences. Nous gagnons un temps précieux et évitons les erreurs.
               </p>
               <div className="flex items-center">
                 <div className="mr-3 h-10 w-10 overflow-hidden rounded-full bg-gray-200">
@@ -662,9 +661,9 @@ export default function SantePage() {
                 ))}
               </div>
               <p className="mb-4 italic text-muted-foreground">
-                "En tant que secouriste, l&apos;accès immédiat aux informations
+                En tant que secouriste, l&apos;accès immédiat aux informations
                 vitales du patient fait toute la différence. Un outil
-                indispensable."
+                indispensable.
               </p>
               <div className="flex items-center">
                 <div className="mr-3 h-10 w-10 overflow-hidden rounded-full bg-gray-200">
@@ -694,8 +693,8 @@ export default function SantePage() {
                 ))}
               </div>
               <p className="mb-4 italic text-muted-foreground">
-                "Depuis que ma mère porte un bracelet Airlod, toute la famille
-                est plus sereine. Un investissement qui n&apos;a pas de prix."
+                Depuis que ma mère porte un bracelet Airlod, toute la famille
+                est plus sereine. Un investissement qui n&apos;a pas de prix.
               </p>
               <div className="flex items-center">
                 <div className="mr-3 h-10 w-10 overflow-hidden rounded-full bg-gray-200">
