@@ -932,7 +932,7 @@ export default function SantePage() {
             <div>
               <h3 className="mb-4 text-lg font-bold">Contact</h3>
               <ul className="space-y-2 text-sm text-gray-300">
-                <li>contact@airlod.com</li>
+                <li>contac@airlod.com</li>
                 <li>+33 1 23 45 67 89</li>
                 <li>
                   123 Avenue de la Santé
